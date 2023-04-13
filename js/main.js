@@ -8,6 +8,8 @@ if (eta < 18){
  } else if (eta >= 65){
     prezzoTotale = prezzoPerKm / 40 * 100
  }
+
+prezzoTotale = prezzoTotale.toFixed(2)
     
 alert (`il prezzo del tuo biglietto è ${prezzoTotale} $`)
 
